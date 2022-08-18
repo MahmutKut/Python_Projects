@@ -1,15 +1,1 @@
-[('samsung', 'galaxy', 5000, ''
- ('nestle', 'çikolata', 3, '3'
- ('mentos', 'şekerli sakız', 4, '4'
- ('selam', 'deneme bir iki üç', 8, '8'
- ('nestle', 'çikolata', 3, '3'
- ('mentos', 'şekerli sakız', 4, '4'
- ('selam', 'deneme bir iki üç', 8, '8'
- ('rampage', 'stage kb', 1000, '20/18/2022'
- ('kinder', 'süt dilimi', 5, '10/20/2022'
- ('ülker', 'çikolatalı gofer', 5, '15/02/2001'
- ('hop', 'hop1', 2, '2'
- ('hop2', 'hop3', 4, '4'
- ('hamidiye ', 'su', 20, '25/10/2023'
- ('erikli', 'soda', 4, '10/50/2523'
- ('falım', 'sakiz', 10, '10/25/2023')]
+
