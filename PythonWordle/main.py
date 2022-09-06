@@ -24,8 +24,7 @@ def kelimebulucu(kategori):
 
 
 
-print(
-    "******************************************** KELİME OYUNUNA HOS GELDİNİZ ********************************************")
+print("******************************************** KELİME OYUNUNA HOS GELDİNİZ ********************************************")
 
 isim = input("İsiminizi Girin :\n")
 print("Oyun Menüsüne Aktarılıyorsunuz\n")
