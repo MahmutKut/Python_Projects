@@ -57,12 +57,12 @@ class Notebook(QMainWindow):
 
         dosya.triggered.connect(self.click)
 
-        self.setGeometry(700,300,500,500)
+        self.setGeometry(700,300,700,700)
         self.show()
     def click(self,action):
         if(action.text() == "Yeni"):
             if(int(len(self.pencere.yazi_alani.toPlainText())) != 0):
-                self.pencere.yazi_alani2.setText("YAZILI OLAN METİNLER VAR YENİ DOSYA AÇMAK İSTİYOR MUSUNUZ ?")
+                self.pencere.yazi_alani2.setText("KAYIT EDİLMEYEN BİLGİLER VAR DEVAM ETMEK İSTİYORMUSUNUZ ?")
                 self.buton = QPushButton("Yeni Dosya Aç")
                 self.pencere.v_box.addWidget(self.buton)
                 self.buton.clicked.connect(self.penceretemizle)
