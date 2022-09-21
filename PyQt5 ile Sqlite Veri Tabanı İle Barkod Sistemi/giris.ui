@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1129</width>
+    <height>889</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Logo">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>20</y>
+      <width>491</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/logo/mahocode.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ArkaPlan">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>1131</width>
+      <height>871</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/arkaplan/ArkaPlan.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="satisyap">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>500</y>
+      <width>581</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(57, 57, 57);
+color: rgb(96, 255, 10);</string>
+    </property>
+    <property name="text">
+     <string>SATIŞ YAP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="urunekle">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>640</y>
+      <width>581</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(57, 57, 57);
+color: rgb(96, 255, 10);</string>
+    </property>
+    <property name="text">
+     <string>ÜRÜN EKLE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Telif">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>820</y>
+      <width>331</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>© BU UYGULAMANIN BÜTÜN TELİF HAKLARI MAHMUT KUT'A AİTTİR</string>
+    </property>
+   </widget>
+   <zorder>ArkaPlan</zorder>
+   <zorder>Logo</zorder>
+   <zorder>satisyap</zorder>
+   <zorder>urunekle</zorder>
+   <zorder>Telif</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1129</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resimleryeni.qrc"/>
+ </resources>
+ <connections/>
+</ui>

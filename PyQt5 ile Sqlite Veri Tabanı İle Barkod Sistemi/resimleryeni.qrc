@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="arkaplan">
+    <file>ArkaPlan.jpg</file>
+  </qresource>
+  <qresource prefix="logo">
+    <file>mahocode.png</file>
+  </qresource>
+</RCC>
